@@ -12,3 +12,19 @@
 .points .label {
     font-size: 30px
 }
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    position: absolute;
+    margin-top: 20px;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 14px;
+}
+
+a {
+    text-decoration: none;
+}

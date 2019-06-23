@@ -7,12 +7,12 @@
   </div>
 
   <div class="col-sm-8">
-    <a href="{{ article.link }}">{{ article.title }}</a>
+    <h3><a href="{{ article.link }}">{{ article.title }}</a></h3>
 
     <div class="text-muted">({{ article.domain() }})</div>
     <ul>
-      <li><a href (click)="voteUp()">upvote</a></li>
-      <li><a href (click)="voteDown()">downvote</a></li>
+      <li><a href (click)="voteUp()"><fa name="thumbs-up"></fa> upvote</a></li>
+      <li><a href (click)="voteDown()"> <fa name="thumbs-down"></fa> downvote</a></li>
     </ul>
   </div>
 </div>
