@@ -1,23 +1,21 @@
 .points {
     background-color: darkgray;
-    padding: 20px;
     text-align: center;
     border-radius: 5px;
 }
 
 .points .value {
-    font-size: 60px;
+    font-size: 50px;
 }
 
 .points .label {
-    font-size: 30px
+    font-size: 20px
 }
 
 ul {
     list-style: none;
     padding-left: 0;
-    position: absolute;
-    margin-top: 20px;
+    margin-top: 12px;
 }
 
 ul li {
