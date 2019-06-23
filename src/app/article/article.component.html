@@ -1,0 +1,18 @@
+<div class="row mb-4">
+  <div class="col-sm-4">
+    <div class="points">
+      <div class="value">{{ article.votes }}</div>
+      <div class="label">Points</div>
+    </div>
+  </div>
+
+  <div class="col-sm-8">
+    <a href="{{ article.link }}">{{ article.title }}</a>
+
+    <div class="text-muted">({{ article.domain() }})</div>
+    <ul>
+      <li><a href (click)="voteUp()">upvote</a></li>
+      <li><a href (click)="voteDown()">downvote</a></li>
+    </ul>
+  </div>
+</div>
