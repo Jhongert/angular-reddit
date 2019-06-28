@@ -9,7 +9,7 @@
   <div class="col-sm-8">
     <h3><a href="{{ article.link }}" target="_blank">{{ article.title }}</a></h3>
 
-    <div class="text-muted">({{ article.domain() }})</div>
+    <div class="text-muted">({{ article.link }})</div>
     <ul>
       <li><a href (click)="voteUp()"><fa name="thumbs-up"></fa> upvote</a></li>
       <li><a href (click)="voteDown()"> <fa name="thumbs-down"></fa> downvote</a></li>

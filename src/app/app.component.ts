@@ -40,9 +40,9 @@ export class AppComponent {
       return;
   }
 
-    console.log(`Adding article title: ${form.title} and link: ${form.link}`);
     this.articles.push(new Article(form.title, form.link, 0));
     this.form.reset();
+    this.submitted = false;
   }
 
   sortedArticles(): Article[] {

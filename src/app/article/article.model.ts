@@ -14,7 +14,9 @@ export class Article {
     }
     
     voteDown(): void {
-        this.votes -= 1;
+        if(this.votes > 0){
+            this.votes -= 1;
+        }
     }
 
     domain(): string {
